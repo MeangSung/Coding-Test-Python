@@ -1,8 +1,4 @@
-d=[1,2,3,4,5]
+iter_x=iter([1,2,3,4,5])
 
-first = next(iter(d))
-
-print(first)
-print(d)
-
-
+for _ in range(5):
+    print(next(iter_x))
