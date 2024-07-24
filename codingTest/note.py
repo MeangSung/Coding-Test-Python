@@ -1,4 +1,5 @@
-iter_x=iter([1,2,3,4,5])
+dic = {1:[1.3], 2:[4,5]}
 
-for _ in range(5):
-    print(next(iter_x))
+del dic[1]
+
+print(dic)
