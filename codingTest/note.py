@@ -1,5 +1,8 @@
-dic = {1:[1.3], 2:[4,5]}
+d = [1,3,6,7]
+c = [1,3,6,7,5]
 
-del dic[1]
-
-print(dic)
+tree = []
+tree.append(d)
+tree.append(c)
+tree.sort()
+print(tree)
