@@ -5,4 +5,6 @@ tree = []
 tree.append(d)
 tree.append(c)
 tree.sort()
+d.pop()
+print(d)
 print(tree)
