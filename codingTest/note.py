@@ -1,6 +1,4 @@
-r = ""
+r = 'sa'
 
-for i in range(4):
-    r.join(str(i))
-
-print(int('0009'))
+for char in r:
+    print(char)
