@@ -1,10 +1,3 @@
-import heapq
 
-r = []
-heapq.heappush(r,1)
-heapq.heappush(r,3)
-heapq.heappush(r,5)
-heapq.heappush(r,7)
-heapq.heappush(r,2)
-
-print(r)
+r = [2,2,3,4,6,2,5,3]
+print(r.index(1,0,len(r )))
