@@ -1,6 +1,4 @@
-r = ""
-
-for i in range(4):
-    r.join(str(i))
-
-print(int('0009'))
+print("\\    /\\")
+print(" )  ( ')")
+print("(  /  )")
+print(" \(__)|")
