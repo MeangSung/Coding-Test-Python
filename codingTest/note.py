@@ -1,3 +1,8 @@
+import sys
 
-r = [2,2,3,4,6,2,5,3]
-print(r.index(1,0,len(r )))
+for line in sys.stdin:
+    try:
+        A, B = map(int, line.split())
+        print(A + B)
+    except:
+        break
